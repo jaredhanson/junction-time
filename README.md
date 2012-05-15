@@ -3,6 +3,19 @@
 [Entity Time](http://xmpp.org/extensions/xep-0202.html) middleware built on [Junction](http://github.com/jaredhanson/junction)
 and [Node](http://nodejs.org).
 
+## Installation
+
+    $ npm install junction-time
+
+## Usage
+
+To respond to requests for the local time of the entity, use `time` middleware:
+
+    var time = require('junction-time');
+
+    var app = junction()
+      .use(time());
+
 ## Tests
 
     $ npm install --dev
