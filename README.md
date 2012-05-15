@@ -3,6 +3,17 @@
 [Entity Time](http://xmpp.org/extensions/xep-0202.html) middleware built on [Junction](http://github.com/jaredhanson/junction)
 and [Node](http://nodejs.org).
 
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/junction-time.png)](http://travis-ci.org/jaredhanson/junction-time)
+
+## Credits
+
+  - [Jared Hanson](http://github.com/jaredhanson)
+
 ## License
 
 (The MIT License)
